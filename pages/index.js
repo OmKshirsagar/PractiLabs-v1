@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+// import photo from '';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -103,7 +104,7 @@ export default function Home() {
                   transform:
                     'scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)',
                 }}
-                src="../public/images/homepage_hero.jpg"
+                src="./images/homepage_hero.jpg"
               />
             </div>
           </div>

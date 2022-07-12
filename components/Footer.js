@@ -18,12 +18,7 @@ export default function Footer() {
         </li>
         <li>
           <a href="#" class="mr-4 hover:underline md:mr-6">
-            Privacy Policy
-          </a>
-        </li>
-        <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">
-            Licensing
+            Pricing
           </a>
         </li>
         <li>
