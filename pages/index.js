@@ -18,9 +18,7 @@ export default function Home() {
                 You Want
               </h1>
               <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">
-                A professonal website drives sales. Create a beautiful website
-                to impress and engage new customers and establish your business
-                online{' '}
+                A professonal website drives sales. Learn Faster! Code Better!{' '}
               </p>
             </div>
             <div className="flex justify-center items-center">
@@ -33,7 +31,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-4 pb-32 pt-48">
+        <div className="container mx-auto px-4 pb-32">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
@@ -44,10 +42,8 @@ export default function Home() {
                   Complex Documentation
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  PractiLabs is an centralized integrated development
+                  environment.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
