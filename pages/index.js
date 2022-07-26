@@ -1,7 +1,7 @@
-import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-// import photo from '';
+import Image from 'next/image';
+import homepage_hero from '../public/images/homepage_hero.jpg';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -93,14 +93,14 @@ export default function Home() {
             </div>
 
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-              <img
+              <Image
+                src={homepage_hero}
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
                     'scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)',
                 }}
-                src="./images/homepage_hero.jpg"
               />
             </div>
           </div>
@@ -109,4 +109,15 @@ export default function Home() {
       <Footer />
     </>
   );
+}
+{
+  /* <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    'scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)',
+                }}
+                src="../public/images/homepage_hero.jpg"
+              /> */
 }
