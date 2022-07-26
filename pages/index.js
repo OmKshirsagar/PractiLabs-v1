@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import homepage_hero from '../public/images/homepage_hero.jpg';
 import styles from '../styles/Home.module.css';
@@ -35,9 +36,7 @@ export default function Home() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-file-alt text-xl"></i>
-                </div>
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"></div>
                 <h3 className="text-3xl font-semibold">
                   Complex Documentation
                 </h3>
@@ -111,7 +110,11 @@ export default function Home() {
   );
 }
 {
-  /* <img
+  /* 
+                  <FontAwesomeIcon icon="fa-file-alt" />
+                    
+  <i className="fas fa-file-alt text-xl"></i>
+  <img
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
