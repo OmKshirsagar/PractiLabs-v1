@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import Icon from '../public/images/icon.svg';
 import React, { useState } from 'react';
 
 export default function Navbar() {
@@ -8,10 +10,12 @@ export default function Navbar() {
       <div className="py-5 md:py-0 container mx-auto px-6 flex items-center justify-between">
         <div aria-label="Home. logo" role="img">
           <Link href="/">
-            <img
+            <Image
               className="w-12 md:w-auto"
-              src="https://tuk-cdn.s3.amazonaws.com/can-uploader/centre_aligned_simple-Svg1.svg"
+              src={Icon}
               alt="logo"
+              width="50em"
+              height="50em"
             />
           </Link>
           <span>PractiLabs</span>
@@ -69,7 +73,7 @@ export default function Navbar() {
             <ul className="flex text-3xl md:text-base items-center py-10 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent z-20">
               <li className="text-gray-700 hover:text-gray-900 cursor-pointer text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">
                 <Link href="./">
-                  <a href="javascript: void(0)">Pricing</a>
+                  <a>Pricing</a>
                 </Link>
               </li>
               <li className="text-gray-700 hover:text-gray-900 cursor-pointer text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10">

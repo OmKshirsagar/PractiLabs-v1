@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-import homepage_hero from '../public/images/homepage_hero.jpg';
+// import homepage_hero from '../public/images/homepage_hero.jpg';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -93,7 +93,6 @@ export default function Home() {
 
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <Image
-                src={homepage_hero}
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
