@@ -1,5 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Image from 'next/image';
+import LoginPic from '../public/images/Login_graphics.svg';
 
 export default function login() {
   return (
@@ -9,11 +11,7 @@ export default function login() {
         <div className="container px-6 py-12 h-full">
           <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
             <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-                className="w-full"
-                alt="Phone image"
-              />
+              <Image src={LoginPic} className="w-full" alt="Phone image" />
             </div>
             <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
               <form>
@@ -38,7 +36,6 @@ export default function login() {
                       type="checkbox"
                       className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                       id="exampleCheck3"
-                      checked
                     />
                     <label
                       className="form-check-label inline-block text-gray-800"
